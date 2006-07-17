@@ -1,4 +1,4 @@
-Summary:	Useful Vim editor buffer, file and window related functions.
+Summary:	Useful Vim editor buffer, file and window related functions
 Name:		vim-plugin-genutils
 Version:	2.1
 Release:	0.1
