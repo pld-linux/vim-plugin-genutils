@@ -1,4 +1,5 @@
 Summary:	Useful Vim editor buffer, file and window related functions
+Summary(pl):	Przydatne funkcje dla Vima zwi±zane z buforami, plikami i oknami
 Name:		vim-plugin-genutils
 Version:	2.1
 Release:	0.1
@@ -6,7 +7,7 @@ License:	GPL
 Group:		Applications/Editors/Vim
 Source0:	genutils-%{version}.zip
 # Source0-md5:	25b93ab92cc8ca3bad9cb5fa3ddbfbb1
-URL:		fixme
+#URL:		fixme
 Requires:	vim >= 4:6.3.058-3
 Requires:	vim-plugin-multvals
 BuildArch:	noarch
@@ -17,10 +18,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Useful Vim editor buffer, file and window related functions.
 
+%description -l pl
+Przydatne funkcje dla Vima zwi±zane z buforami, plikami i oknami.
+
 %prep
 %setup -q -c
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
