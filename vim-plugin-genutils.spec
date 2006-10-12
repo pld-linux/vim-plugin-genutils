@@ -9,7 +9,6 @@ Source0:	genutils-%{version}.zip
 # Source0-md5:	4a633cb703cdd596203063c31969f59e
 URL:		http://vim.sourceforge.net/scripts/script.php?script_id=197
 Requires:	vim >= 4:7.0
-Requires:	vim-plugin-multvals
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
