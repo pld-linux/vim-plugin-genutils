@@ -1,5 +1,5 @@
 Summary:	Useful Vim editor buffer, file and window related functions
-Summary(pl):	Przydatne funkcje dla Vima zwi±zane z buforami, plikami i oknami
+Summary(pl.UTF-8):   Przydatne funkcje dla Vima zwiÄ…zane z buforami, plikami i oknami
 Name:		vim-plugin-genutils
 Version:	2.3
 Release:	1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Useful Vim editor buffer, file and window related functions.
 
-%description -l pl
-Przydatne funkcje dla Vima zwi±zane z buforami, plikami i oknami.
+%description -l pl.UTF-8
+Przydatne funkcje dla Vima zwiÄ…zane z buforami, plikami i oknami.
 
 %prep
 %setup -q -c
