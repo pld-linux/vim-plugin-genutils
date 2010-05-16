@@ -8,6 +8,7 @@ Group:		Applications/Editors/Vim
 Source0:	genutils-%{version}.zip
 # Source0-md5:	4a633cb703cdd596203063c31969f59e
 URL:		http://vim.sourceforge.net/scripts/script.php?script_id=197
+BuildRequires:	unzip
 Requires:	vim-rt >= 4:7.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
